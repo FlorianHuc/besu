@@ -59,6 +59,7 @@ public class ConfigurationOverviewBuilder {
   private boolean isSnapServerEnabled = false;
   private boolean isSnapSyncBftEnabled = false;
   private TransactionPoolConfiguration.Implementation txPoolImplementation;
+  private boolean isSnapSyncToHeadEnabled = true;
   private EvmConfiguration.WorldUpdaterMode worldStateUpdateMode;
   private Map<String, String> environment;
   private BesuPluginContextImpl besuPluginContext;
